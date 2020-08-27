@@ -1,7 +1,7 @@
 let numTimesClicked = 0;
 
 function win() {
-  alert("You win!");
+  alert("You win!!!!");
   reset();
 }
 
