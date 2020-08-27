@@ -6,12 +6,12 @@ function win() {
 }
 
 function reset() {
-  numTimesClicked = 0;
+  numTimesClicked = -1;
 }
 
 function click() {
   numTimesClicked++;
-  console.log(`You've been clicked! 100`);
+  console.log(`You've been clicked! 🚀 100`);
   if (numTimesClicked === 10) win();
 }
 
